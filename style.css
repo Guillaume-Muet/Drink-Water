@@ -1,0 +1,67 @@
+body {
+    background: linear-gradient(0.25turn, #15cedf, #bdf6fc73);
+    color: white;
+    font-family: cursive;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.big-bottle {
+    width: 120px;
+    height: 240px;
+    border-radius: 0 0 35px 35px;
+    border: 3px solid #0d9aec;
+    border-top: none;
+    margin-top: 20px;
+    background: white;
+    opacity: 0.9;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.percentage {
+    width: 118px;
+    height: 0px; /** De 30 en 30.. */
+    background: #15cedf;
+    border-radius: 0 0 35px 35px;
+    margin-bottom: 1px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.percentage span {
+    font-size: 20px;
+}
+.small-bottle {
+    border-radius: 0 0 35px 35px;
+    border: 3px solid #0d9aec;
+    background: white;
+    height: 60px;
+    width: 30px;
+    margin-left: 8px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+.small-bottle span {
+    font-size: 13px;
+    color:  #0d9aec;
+    margin-left: 2px;
+    margin-right: 2px;
+    text-align: center;
+}
+.small-bottle-container {
+    display: flex;
+    width: 200px;
+    height: 160px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.small-bottle-full {
+    color: white;
+    background-color: #15cedf;
+    transition: 0.5s ease-in;
+}
